@@ -58,7 +58,7 @@ class Cloze:
   def saveAnkiPackage(self, packageName):
     genanki.Package(self.my_deck).write_to_file(packageName + '.apkg')
   def htmlProcess(self, text_cell, text_cell_xf, text_cell_runlist, font_list, col_idx):    
-    htmlValue = ''
+    htmlValue = '' 
     countCloze = 1
     # print(text_cell_runlist)
     if text_cell_runlist:
