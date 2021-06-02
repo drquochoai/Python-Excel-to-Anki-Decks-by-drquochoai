@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*CHỈNH STYLES ONLINE https://codepen.io/drquochoai/pen/NWpbjEb */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  margin: 2rem;
+}
+.cloze{font-weight: 900; color: #0088ff;}
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.6%;
+  background: #fff;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0;
+}
+.blog-card .description {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.blog-card .description h1,
+.blog-card .description h2 {
+  font-family: Poppins, sans-serif;
+}
+.blog-card .description h1 {
+  line-height: 0.9;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.footer {
+  padding: 1rem;
+  padding-top:0px;
+  font-size: 0.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #a2a2a2;
+}
+.noteid{
+  text-transform: none;
+}
+.blog-card p {
+  position: relative;
+  margin: 1rem 0 0;
+  font-size: 1rem;
+}
+.blog-card p:first-of-type {
+  margin-top: 1.25rem;
+}
+.blog-card p:first-of-type:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background: #5ad67d;
+  width: 100%;
+  top: -0.75rem;
+  border-radius: 3px;
+}
+.dr_extranote{
+	
+}
+.hide {
+  display: none;
+}
+.dr_bold{
+	font-weight: bold;
+}
+.dr_italic{
+	font-style: italic;
+}
+.dr_underlined{
+	text-decoration: underline;
+}
